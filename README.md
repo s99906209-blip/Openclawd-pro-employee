@@ -102,7 +102,7 @@ If you would like to contribute, please open an issue or pull request proposing 
 
 ## Security
 
-If you discover a security vulnerability, please email security@openclaw.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability, please use the GitHub Security Advisories feature for this repository: open the repository on GitHub, go to the **Security** tab, and click **"Report a vulnerability"** to submit a private report. All security vulnerabilities will be promptly reviewed and addressed.
 
 ## License
 
