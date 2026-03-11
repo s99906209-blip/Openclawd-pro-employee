@@ -96,15 +96,9 @@ We welcome contributions! Please follow these steps:
 
 ## Testing
 
-Run the test suite:
-```bash
-npm test
-```
+Automated testing has not been configured for this project yet.
 
-Run tests with coverage:
-```bash
-npm run test:coverage
-```
+If you would like to contribute, please open an issue or pull request proposing a testing setup (for example, using Jest, Mocha, or another test framework). Once a test runner and npm scripts are in place, this section will be updated with the appropriate commands.
 
 ## Security
 
