@@ -39,8 +39,11 @@ npm install
 
 3. Configure environment variables:
 ```bash
-cp .env.example .env
-# Edit .env with your configuration
+# Create a .env file in the project root and add your configuration, for example:
+# DATABASE_URL=postgres://user:password@localhost:5432/openclaw
+# PORT=3000
+# JWT_SECRET=your-secure-jwt-secret
+# NODE_ENV=development
 ```
 
 4. Run database migrations:
