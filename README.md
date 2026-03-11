@@ -82,7 +82,7 @@ The application can be configured through environment variables:
 
 ## API Documentation
 
-API documentation is available at `/api/docs` when running the application in development mode.
+API documentation is currently under development and will be provided in a future update. Please refer to the project issues and roadmap for the latest status.
 
 ## Contributing
 
