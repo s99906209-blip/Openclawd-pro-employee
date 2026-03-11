@@ -116,12 +116,10 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 ## Support
 
 For support and questions:
-- Open an issue on GitHub
-- Email: support@openclaw.com
-- Documentation: [https://docs.openclaw.com](https://docs.openclaw.com)
+- Open an issue in this repository for bugs or feature requests
+- Use this repository's Discussions (if enabled) for questions and general support
 
 ## Roadmap
-
 - [ ] Mobile application support
 - [ ] Advanced analytics dashboard
 - [ ] Integration with third-party HR systems
