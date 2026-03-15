@@ -4,7 +4,7 @@ This repository currently does not include application code or database migratio
 
 ## Getting started
 - Clone the repository.
-- There is no package.json or runtime dependency installation required at this stage.
+- There is no `package.json` or runtime dependency installation required at this stage.
 - No database setup is necessary until migrations or application code are added.
 
 ## Status
