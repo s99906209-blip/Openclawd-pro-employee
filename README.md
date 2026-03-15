@@ -28,8 +28,8 @@ Openclaw Pro Employee is a comprehensive employee management platform designed t
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/s99906209-blip/Openclawd-pro-employee.git
-cd Openclawd-pro-employee
+git clone https://github.com/s99906209-blip/Openclaw-pro-employee.git
+cd Openclaw-pro-employee
 ```
 
 2. Install dependencies:
