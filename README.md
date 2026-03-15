@@ -1,10 +1,10 @@
-# Openclaw Pro Employee
+# Openclawd Pro Employee
 
 A professional employee management system built with modern technologies.
 
 ## Overview
 
-Openclaw Pro Employee is a comprehensive employee management platform designed to streamline workforce operations, improve productivity, and enhance organizational efficiency.
+Openclawd Pro Employee is a comprehensive employee management platform designed to streamline workforce operations, improve productivity, and enhance organizational efficiency.
 
 ## Features
 
@@ -40,7 +40,7 @@ npm install
 3. Configure environment variables:
 ```bash
 # Create a .env file in the project root and add your configuration, for example:
-# DATABASE_URL=postgres://user:password@localhost:5432/openclaw
+# DATABASE_URL=postgres://user:password@localhost:5432/openclawd
 # PORT=3000
 # JWT_SECRET=your-secure-jwt-secret
 # NODE_ENV=development
@@ -52,9 +52,12 @@ npm run migrate
 ```
 
 5. Start the application:
-```bash
-npm start
-```
+
+   This repository currently does not define an `npm start` script or a runnable
+   application entrypoint. When integrating this project into your own
+   application, add the appropriate entrypoint and npm scripts (for example,
+   `"start"` or `"dev"`) to your application's `package.json`, then use those
+   commands to run your app.
 
 ## Usage
 
@@ -106,16 +109,15 @@ If you discover a security vulnerability, please use the GitHub Security Advisor
 
 ## License
 
-MIT License
+The licensing terms for this project have not yet been finalized.
+Until a dedicated LICENSE file is added to this repository, all rights are reserved
+by the Openclaw Team, and you should not use, copy, modify, or distribute this
+code without explicit permission from the maintainers.
 
-Copyright (c) 2024 Openclaw Team
-
-## License
-
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 ## Support
 
 For support and questions:
+- Open an issue in this repository for bugs or feature requests
 - Open an issue in this repository for bugs or feature requests
 - Use this repository's Discussions (if enabled) for questions and general support
 
