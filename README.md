@@ -1,10 +1,10 @@
-# Openclaw Pro Employee
+# Openclawd Pro Employee
 
 A professional employee management system built with modern technologies.
 
 ## Overview
 
-Openclaw Pro Employee is a comprehensive employee management platform designed to streamline workforce operations, improve productivity, and enhance organizational efficiency.
+Openclawd Pro Employee is a comprehensive employee management platform designed to streamline workforce operations, improve productivity, and enhance organizational efficiency.
 
 ## Features
 
@@ -33,23 +33,27 @@ cd Openclawd-pro-employee
 ```
 
 2. Install dependencies:
-```bash
-npm install
-```
+
+   > **Note:** This repository does not yet include a `package.json` or application
+   > scaffolding. Once the project is bootstrapped, run:
+   > ```bash
+   > npm install
+   > ```
 
 3. Configure environment variables:
 ```bash
 # Create a .env file in the project root and add your configuration, for example:
-# DATABASE_URL=postgres://user:password@localhost:5432/openclaw
+# DATABASE_URL=postgres://user:password@localhost:5432/openclawd
 # PORT=3000
 # JWT_SECRET=your-secure-jwt-secret
 # NODE_ENV=development
 ```
 
 4. Run database migrations:
-```bash
-npm run migrate
-```
+
+   > **Note:** Migration scripts are not yet included in this repository. Once the
+   > database tooling is added, run the appropriate migrate command (e.g.
+   > `npm run migrate`).
 
 5. Start the application:
 
@@ -109,13 +113,8 @@ If you discover a security vulnerability, please use the GitHub Security Advisor
 
 ## License
 
-MIT License
-
-Copyright (c) 2024 Openclaw Team
-
-## License
-
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
 ## Support
 
 For support and questions:
@@ -140,4 +139,4 @@ This project is actively maintained and under continuous development.
 
 ---
 
-Made with ❤️ by the Openclaw Team
+Made with ❤️ by the Openclawd Team
