@@ -52,9 +52,12 @@ npm run migrate
 ```
 
 5. Start the application:
-```bash
-npm start
-```
+
+   This repository currently does not define an `npm start` script or a runnable
+   application entrypoint. When integrating this project into your own
+   application, add the appropriate entrypoint and npm scripts (for example,
+   `"start"` or `"dev"`) to your application's `package.json`, then use those
+   commands to run your app.
 
 ## Usage
 
