@@ -109,15 +109,15 @@ If you discover a security vulnerability, please use the GitHub Security Advisor
 
 ## License
 
-MIT License
-
-Copyright (c) 2024 Openclaw Team
-
-See the [LICENSE](LICENSE) file for details.
+The licensing terms for this project have not yet been finalized.
+Until a dedicated LICENSE file is added to this repository, all rights are reserved
+by the Openclaw Team, and you should not use, copy, modify, or distribute this
+code without explicit permission from the maintainers.
 
 ## Support
 
 For support and questions:
+- Open an issue in this repository for bugs or feature requests
 - Open an issue in this repository for bugs or feature requests
 - Use this repository's Discussions (if enabled) for questions and general support
 
