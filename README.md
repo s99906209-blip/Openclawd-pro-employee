@@ -1,10 +1,10 @@
-# Openclaw Pro Employee
+# Openclawd Pro Employee
 
 A professional employee management system built with modern technologies.
 
 ## Overview
 
-Openclaw Pro Employee is a comprehensive employee management platform designed to streamline workforce operations, improve productivity, and enhance organizational efficiency.
+Openclawd Pro Employee is a comprehensive employee management platform designed to streamline workforce operations, improve productivity, and enhance organizational efficiency.
 
 ## Features
 
@@ -40,7 +40,7 @@ npm install
 3. Configure environment variables:
 ```bash
 # Create a .env file in the project root and add your configuration, for example:
-# DATABASE_URL=postgres://user:password@localhost:5432/openclaw
+# DATABASE_URL=postgres://user:password@localhost:5432/openclawd
 # PORT=3000
 # JWT_SECRET=your-secure-jwt-secret
 # NODE_ENV=development
