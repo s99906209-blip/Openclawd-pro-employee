@@ -1,0 +1,51 @@
+name: claude
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  security-events: write
+  actions: read
+
+jobs:
+  security-scan:
+    name: Claude Security Scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate SARIF report
+        # Placeholder implementation: generates an empty SARIF report.
+        # Replace this step with actual Claude API integration for security scanning.
+        run: |
+          cat > results.sarif <<'EOF'
+          {
+            "version": "2.1.0",
+            "runs": [
+              {
+                "tool": {
+                  "driver": {
+                    "name": "claude",
+                    "version": "1.0.0",
+                    "informationUri": "https://www.anthropic.com",
+                    "rules": []
+                  }
+                },
+                "results": []
+              }
+            ]
+          }
+          EOF
+
+      - name: Upload SARIF results
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: results.sarif
+          category: claude
